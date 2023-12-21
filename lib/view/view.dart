@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tuple/tuple.dart';
 
-import 'view/service_locator.dart';
+import '../app/service_locator.dart';
 import 'viewmodel.dart';
 
 //----------------------------------------------------------------------------
