@@ -24,7 +24,7 @@ class Viewmodel with ChangeNotifier {
   }
 
   /// A convenient method, to implicitly write the turnBusy()... turnIdle()
-  Future<void> update(AsyncCallback? fn) async {
+  Future<void> update([AsyncCallback? fn]) async {
     turnBusy();
     if (fn != null) await fn();
     turnIdle();
